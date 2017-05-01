@@ -1,0 +1,99 @@
+.info-section {
+  position: relative;
+  margin-top: 23%;
+}
+
+.navbar-header button {
+  margin-top: 22px;
+  float: right;
+}
+
+.navbar-header h1 a {
+  color: black;
+}
+
+.navbar-header h4 a {
+  color: black;
+}
+
+.navbar-header h1 a:hover {
+  text-decoration: none;
+}
+
+.navbar-header h4 a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.navbar li {
+  color: #000
+}
+
+h3 {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.main-points {
+  color: #d9534f;
+  text-decoration: underline;
+}
+
+.project-section h1 b a  {
+   color: inherit;
+}
+
+.project-section h3 a  {
+   color: inherit;
+}
+
+.project-section h1 b a:  {
+   color: inherit;
+}
+
+.project-section h3 a  {
+   color: inherit;
+}
+
+
+/* Media Queries */
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width 575px) {
+  project-section {
+    display: none;
+  }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) {
+
+  .navbar-default {
+    background: white;
+  }
+  header {
+    display: none;
+  }
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+  nav {
+    display: none;
+  }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+  .nav {
+    display: none;
+  }
+
+  .nav h1 {
+    display: none;
+  }
+
+}
