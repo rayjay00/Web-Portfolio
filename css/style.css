@@ -32,11 +32,13 @@
 h3 {
   margin-top: 10px;
   text-align: center;
+  font-weight: bolder;
+
 }
 
 .main-points {
-  color: #d9534f;
-  text-decoration: underline;
+  font-family: 'Permanent Marker', cursive;
+
 }
 
 .project-section h1 b a  {
