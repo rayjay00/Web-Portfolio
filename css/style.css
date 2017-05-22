@@ -1,6 +1,24 @@
+body {
+  background-color: background: #642b73; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #642b73, #c6426e); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #642b73, #c6426e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 .info-section {
   position: relative;
   margin-top: 23%;
+}
+.text-center h1 {
+  color: #d3d3d3;
+}
+
+.text-center h3 {
+  color: #d3d3d3;
+  margin-top: 0.00001%;
+}
+
+.text-center h4 a {
+  color: #63b5cf;
 }
 
 .navbar-header button {
@@ -8,6 +26,13 @@
   float: right;
 }
 
+h4 {
+  color: #d3d3d3;
+}
+
+h4 a {
+  color: #63b5cf;
+}
 .navbar-header h1 a {
   color: black;
 }
@@ -30,14 +55,14 @@
 }
 
 h3 {
-  margin-top: 10px;
   text-align: center;
   font-weight: bolder;
-
+  color: #d3d3d3;
 }
 
+/* The fast way */
+
 .main-points {
-  font-family: 'Permanent Marker', cursive;
 
 }
 
@@ -57,6 +82,27 @@ h3 {
    color: inherit;
 }
 
+.navbar-header {
+  background-color: background: #642b73; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #642b73, #c6426e); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #642b73, #c6426e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border: none;
+  box-shadow: none;
+  margin-bottom: -5px;
+}
+
+.navbar-header h1 a {
+  color: #d3d3d3;
+}
+
+.navbar-header h4 a {
+  color: #d3d3d3;
+}
+
+.icon-bar {
+  background: #d3d3d3 !important;
+
+}
 
 /* Media Queries */
 
@@ -71,7 +117,7 @@ h3 {
 @media (max-width: 768px) {
 
   .navbar-default {
-    background: white;
+    background: #d3d3d3;
   }
   header {
     display: none;
