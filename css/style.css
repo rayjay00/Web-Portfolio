@@ -10,6 +10,7 @@ body {
 }
 .text-center h1 {
   color: #d3d3d3;
+font-family: 'Roboto Slab', serif;
 }
 
 .text-center h3 {
@@ -28,6 +29,7 @@ body {
 
 h4 {
   color: #d3d3d3;
+  font-family: 'Roboto Mono', monospace;
 }
 
 h4 a {
@@ -58,6 +60,7 @@ h3 {
   text-align: center;
   font-weight: bolder;
   color: #d3d3d3;
+  font-family: 'Roboto Slab', serif;
 }
 
 /* The fast way */
@@ -97,6 +100,7 @@ h3 {
 
 .navbar-header h4 a {
   color: #d3d3d3;
+
 }
 
 .icon-bar {
