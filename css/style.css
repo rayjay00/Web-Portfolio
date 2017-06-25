@@ -34,6 +34,8 @@ h4 {
 
 h4 a {
   color: #63b5cf;
+  font-family: 'Roboto Mono', monospace;
+
 }
 .navbar-header h1 a {
   color: black;
@@ -96,6 +98,8 @@ h3 {
 
 .navbar-header h1 a {
   color: #d3d3d3;
+  font-family: 'Roboto Mono', monospace;
+
 }
 
 .navbar-header h4 a {
